@@ -1,3 +1,6 @@
+"use client";
+import Script from "next/script";
+
 export default function FreeTraining() {
   return (
     <>
@@ -71,11 +74,24 @@ export default function FreeTraining() {
               WebkitBackdropFilter: "blur(10px)",
             }}
           >
-            {/* ↓↓↓ PASTE FORM EMBED CODE HERE ↓↓↓ */}
-            <div className="min-h-[120px]">
-
-            </div>
-            {/* ↑↑↑ END FORM EMBED ↑↑↑ */}
+            <iframe
+              src="https://api.leadconnectorhq.com/widget/form/yrITo3kUmUqmdPU5cbcZ"
+              style={{ width: "100%", height: "720px", border: "none", borderRadius: "3px" }}
+              id="inline-yrITo3kUmUqmdPU5cbcZ"
+              data-layout="{'id':'INLINE'}"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="Opt-in Form"
+              data-height="720"
+              data-layout-iframe-id="inline-yrITo3kUmUqmdPU5cbcZ"
+              data-form-id="yrITo3kUmUqmdPU5cbcZ"
+              title="Opt-in Form"
+            />
+            <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
 
             {/* Trust line */}
             <p
