@@ -115,16 +115,11 @@ export default function FreeTraining() {
         style={{ borderTop: "1px solid var(--color-border-light)" }}
       >
         <p
-          className="mx-auto mb-3 leading-relaxed"
+          className="mx-auto leading-relaxed"
           style={{ fontSize: "0.67rem", color: "var(--color-muted-text)", maxWidth: "560px" }}
         >
-          By submitting this form, you consent to receive marketing emails and SMS messages from The Amazon Sister LLC.
-          You may unsubscribe at any time. We respect your privacy and will never share your information.
+          &copy; {new Date().getFullYear()} The Amazon Sister LLC. All rights reserved.
         </p>
-        <div className="flex gap-5 justify-center">
-          <a href="/privacy" className="text-[0.7rem] underline transition-colors duration-200" style={{ color: "var(--color-muted-text)" }}>Privacy Policy</a>
-          <a href="/terms" className="text-[0.7rem] underline transition-colors duration-200" style={{ color: "var(--color-muted-text)" }}>Terms of Service</a>
-        </div>
       </footer>
     </>
   );
