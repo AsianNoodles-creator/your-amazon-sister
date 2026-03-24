@@ -27,7 +27,7 @@ export default function Navbar() {
           className="text-xl font-bold tracking-tight text-[var(--color-primary-text)] transition-opacity duration-200 hover:opacity-80"
           style={{ fontFamily: "Poppins, system-ui, sans-serif" }}
         >
-          <span className="text-[var(--color-accent)]">The Amazon</span> Sister
+          <span className="text-[var(--color-accent)]">Your Amazon</span> Sister
         </Link>
 
         {/* Desktop */}

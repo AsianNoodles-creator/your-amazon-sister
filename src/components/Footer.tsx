@@ -11,7 +11,7 @@ export default function Footer() {
               className="text-xl font-bold mb-3 text-[var(--color-primary-text)]"
               style={{ fontFamily: "Poppins, system-ui, sans-serif" }}
             >
-              <span className="text-[var(--color-accent)]">The Amazon</span> Sister
+              <span className="text-[var(--color-accent)]">Your Amazon</span> Sister
             </h3>
             <p className="text-[var(--color-muted-text)] text-sm leading-relaxed mb-2">
               Helping women build profitable Amazon businesses through education,
