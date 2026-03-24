@@ -24,7 +24,7 @@ export default function FreeTraining() {
             className="inline-block text-xs font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-7 px-4 py-1.5 rounded-full border border-[var(--color-border)]"
             style={{ background: "var(--color-accent-light)", letterSpacing: "0.18em" }}
           >
-            Free Training — The Amazon Sister
+            Free Training — Your Amazon Sister
           </span>
 
           {/* Headline */}
@@ -118,7 +118,7 @@ export default function FreeTraining() {
           className="mx-auto leading-relaxed"
           style={{ fontSize: "0.67rem", color: "var(--color-muted-text)", maxWidth: "560px" }}
         >
-          &copy; {new Date().getFullYear()} The Amazon Sister LLC. All rights reserved.
+          &copy; {new Date().getFullYear()} Your Amazon Sister LLC. All rights reserved.
         </p>
       </footer>
     </>

@@ -1,8 +1,8 @@
 export const metadata = {
-  title: "Terms of Service — The Amazon Sister",
+  title: "Terms of Service — Your Amazon Sister",
 };
 
-const BUSINESS_NAME = "The Amazon Sister LLC";
+const BUSINESS_NAME = "Your Amazon Sister LLC";
 const BUSINESS_EMAIL = "info@wenseymccomb.com";
 const BUSINESS_PHONE = "+1 (702) 250-3325";
 
@@ -27,7 +27,7 @@ export default function Terms() {
           <div>
             <p>
               These Terms of Service ("Terms") govern your access to and use of the website and services
-              operated by {BUSINESS_NAME} ("The Amazon Sister," "we," "us," or "our"). By using this website or
+              operated by {BUSINESS_NAME} ("Your Amazon Sister," "we," "us," or "our"). By using this website or
               any of our services, you agree to these Terms.
             </p>
           </div>
@@ -35,7 +35,7 @@ export default function Terms() {
           <div>
             <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">1. Services</h2>
             <p>
-              The Amazon Sister provides educational content and a paid membership community focused
+              Your Amazon Sister provides educational content and a paid membership community focused
               on Amazon reselling strategies. Our services are intended for informational and educational
               purposes only. Results are not guaranteed and vary based on individual effort, market conditions,
               and other factors outside our control.

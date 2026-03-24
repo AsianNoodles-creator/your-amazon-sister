@@ -72,14 +72,14 @@ export default function About() {
             {/* Headline + intro */}
             <div>
               <span className="hero-fade-up hero-fade-up-1 inline-block text-xs font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-5 px-3 py-1 rounded-full border border-[var(--color-border)]" style={{ background: "var(--color-accent-light)" }}>
-                About The Amazon Sister
+                About Your Amazon Sister
               </span>
               <h1 className="hero-fade-up hero-fade-up-2 text-4xl sm:text-5xl md:text-6xl font-extrabold text-[var(--color-primary-text)] mb-6 leading-tight">
                 From Side Hustle to{" "}
                 <span className="text-[var(--color-accent)]">Full-Time Freedom</span>
               </h1>
               <p className="hero-fade-up hero-fade-up-3 text-lg text-[var(--color-muted-text)] leading-relaxed mb-6">
-                I&apos;m Wensey McComb — an active Amazon seller, coach, and founder of The Amazon Sister LLC.
+                I&apos;m Wensey McComb — an active Amazon seller, coach, and founder of Your Amazon Sister LLC.
                 I started with nothing more than a debit card, a few hundred dollars, and a lot of determination.
                 What began as a side hustle became a six-figure business — and then became this.
               </p>
@@ -120,7 +120,7 @@ export default function About() {
                 When I hit six figures in year two, the first thing I thought was — why did I have to learn all of this the hard way? Why isn&apos;t anyone just being straight up about how this works?
               </p>
               <p>
-                That&apos;s why I started The Amazon Sister. I wanted to be the person I needed when I was starting out — someone who actually tells you what&apos;s working right now, not someone selling you a dream from a course they recorded three years ago.
+                That&apos;s why I started Your Amazon Sister. I wanted to be the person I needed when I was starting out — someone who actually tells you what&apos;s working right now, not someone selling you a dream from a course they recorded three years ago.
               </p>
               <p>
                 Now I work with over 20 people through group coaching, 1-on-1 mentorship, and done-for-you services. Everything I teach is stuff I&apos;m still doing in my own business today. I&apos;m not here to impress you with screenshots — I&apos;m here to help you build something that actually pays you.

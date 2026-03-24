@@ -1,8 +1,8 @@
 export const metadata = {
-  title: "Privacy Policy — The Amazon Sister",
+  title: "Privacy Policy — Your Amazon Sister",
 };
 
-const BUSINESS_NAME = "The Amazon Sister LLC";
+const BUSINESS_NAME = "Your Amazon Sister LLC";
 const BUSINESS_EMAIL = "info@wenseymccomb.com";
 const BUSINESS_PHONE = "+1 (702) 250-3325";
 
@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
 
           <div>
             <p>
-              This Privacy Policy describes how {BUSINESS_NAME} ("The Amazon Sister," "we," "us," or "our")
+              This Privacy Policy describes how {BUSINESS_NAME} ("Your Amazon Sister," "we," "us," or "our")
               collects, uses, and shares information when you visit our website or join our membership community.
             </p>
           </div>

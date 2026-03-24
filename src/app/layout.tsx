@@ -5,9 +5,9 @@ import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
 
 export const metadata: Metadata = {
-  title: "The Amazon Sister — Amazon Reselling Coach",
+  title: "Your Amazon Sister — Amazon Reselling Coach",
   description:
-    "The Amazon Sister — a brand and community built by Wensey to help women launch and grow profitable Amazon reselling businesses.",
+    "Your Amazon Sister — a brand and community built by Wensey to help women launch and grow profitable Amazon reselling businesses.",
 };
 
 export default function RootLayout({

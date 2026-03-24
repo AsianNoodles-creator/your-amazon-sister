@@ -17,7 +17,7 @@ export default function Footer() {
               Helping women build profitable Amazon businesses through education,
               community, and live coaching.
             </p>
-            <p className="text-xs text-[var(--color-muted-text)]">The Amazon Sister LLC</p>
+            <p className="text-xs text-[var(--color-muted-text)]">Your Amazon Sister LLC</p>
           </div>
 
           {/* Links */}
@@ -74,7 +74,7 @@ export default function Footer() {
 
         <div className="border-t border-[var(--color-border-light)] mt-10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-xs text-[var(--color-muted-text)]">
-            &copy; {new Date().getFullYear()} The Amazon Sister LLC. All rights reserved.
+            &copy; {new Date().getFullYear()} Your Amazon Sister LLC. All rights reserved.
           </p>
           <div className="flex items-center gap-5">
             <Link href="/privacy" className="text-xs text-[var(--color-muted-text)] hover:text-[var(--color-accent)] transition-colors duration-200">

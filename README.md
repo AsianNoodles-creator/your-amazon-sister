@@ -1,12 +1,12 @@
-# Wensey — The Amazon Sister Website
+# Wensey — Your Amazon Sister Website
 
 ## What This Is
-Next.js 15 App Router website for **The Amazon Sister LLC** — Wensey McComb's Amazon coaching brand.
+Next.js 15 App Router website for **Your Amazon Sister LLC** — Wensey McComb's Amazon coaching brand.
 This is the main marketing website (not the funnel). See `../wensey-lander/` for the webinar funnel.
 
 ## Business Info
-- Legal name: **The Amazon Sister LLC**
-- Brand name: **The Amazon Sister**
+- Legal name: **Your Amazon Sister LLC**
+- Brand name: **Your Amazon Sister**
 - Founder: Wensey McComb
 - Focus: Amazon reselling education and coaching, primarily for women
 - Socials: @wenseymccomb (Instagram, TikTok, YouTube)

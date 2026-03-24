@@ -186,12 +186,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why The Amazon Sister */}
+      {/* Why Your Amazon Sister */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <AnimateOnScroll className="text-center mb-14">
             <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-primary-text)] mb-4">
-              Why Women Choose The Amazon Sister
+              Why Women Choose Your Amazon Sister
             </h2>
             <p className="text-[var(--color-muted-text)] max-w-xl mx-auto leading-relaxed">
               There&apos;s no shortage of Amazon content online. Here&apos;s what makes this different.
