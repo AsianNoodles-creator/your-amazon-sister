@@ -1,5 +1,6 @@
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 import Link from "next/link";
+import GHLForm from "./GHLForm";
 
 function IconMail() {
   return (
@@ -19,6 +20,14 @@ function IconClock() {
   return (
     <svg className="w-6 h-6 text-[var(--color-accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+    </svg>
+  );
+}
+function IconLocation() {
+  return (
+    <svg className="w-6 h-6 text-[var(--color-accent)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
     </svg>
   );
 }
@@ -60,11 +69,10 @@ export default function Contact() {
             Contact
           </span>
           <h1 className="hero-fade-up hero-fade-up-2 text-4xl sm:text-5xl font-extrabold text-[var(--color-primary-text)] mb-5 leading-tight">
-            Get in Touch
+            Book a Call
           </h1>
           <p className="hero-fade-up hero-fade-up-3 text-[var(--color-muted-text)] text-lg max-w-xl leading-relaxed">
-            Have a question about coaching, programs, or getting started on Amazon?
-            Reach out directly — we respond to every message.
+            Tell us where you are in your Amazon journey and we&apos;ll set up a time to talk.
           </p>
         </div>
       </section>
@@ -92,6 +100,12 @@ export default function Contact() {
                 icon: <IconClock />,
                 title: "Response Time",
                 line1: "Within 24 hours on business days.",
+                href: null,
+              },
+              {
+                icon: <IconLocation />,
+                title: "Address",
+                line1: "3157 N. Rainbow Blvd #161, Las Vegas, NV 89108",
                 href: null,
               },
             ].map((item) => (
@@ -132,10 +146,29 @@ export default function Contact() {
             </div>
           </AnimateOnScroll>
 
-          {/* Right — FAQ */}
+          {/* Right — GHL Opt-in Form */}
           <AnimateOnScroll delay={150}>
+            <div className="rounded-2xl border border-[var(--color-border)] overflow-hidden" style={{ background: "rgba(255,255,255,0.85)" }}>
+              <GHLForm />
+            </div>
+            <p className="text-xs text-[var(--color-muted-text)] mt-3 leading-relaxed">
+              By submitting this form, you agree to our{" "}
+              <Link href="/privacy" className="text-[var(--color-accent)] hover:underline">Privacy Policy</Link>
+              {" "}and{" "}
+              <Link href="/terms" className="text-[var(--color-accent)] hover:underline">Terms of Service</Link>.
+              Your information is never sold, shared, or distributed to third parties.
+            </p>
+          </AnimateOnScroll>
+
+        </div>
+      </section>
+
+      {/* Common Questions — full width */}
+      <section className="pb-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <AnimateOnScroll>
             <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-6">Common Questions</h2>
-            <div className="space-y-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               {faqs.map((faq, i) => (
                 <div
                   key={i}
@@ -148,7 +181,6 @@ export default function Contact() {
               ))}
             </div>
           </AnimateOnScroll>
-
         </div>
       </section>
     </>

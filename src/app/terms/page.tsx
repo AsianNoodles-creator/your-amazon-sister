@@ -5,6 +5,7 @@ export const metadata = {
 const BUSINESS_NAME = "Your Amazon Sister LLC";
 const BUSINESS_EMAIL = "info@wenseymccomb.com";
 const BUSINESS_PHONE = "+1 (702) 250-3325";
+const BUSINESS_ADDRESS = "3157 N. Rainbow Blvd #161, Las Vegas, NV 89108";
 
 export default function Terms() {
   return (
@@ -20,6 +21,7 @@ export default function Terms() {
           <h1 className="text-4xl font-extrabold text-[var(--color-primary-text)] mb-3">
             Terms of Service
           </h1>
+          <p className="text-sm text-[var(--color-muted-text)]">Effective Date: March 24, 2026</p>
         </div>
 
         <div className="prose prose-sm max-w-none space-y-8 text-[var(--color-muted-text)] leading-relaxed">
@@ -54,10 +56,16 @@ export default function Terms() {
 
           <div>
             <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">3. SMS Communications</h2>
-            <p>
+            <p className="mb-3">
               By opting in to SMS communications, you agree to receive automated text messages from
-              {" "}{BUSINESS_NAME} as described in our Privacy Policy. You may opt out at any time by
-              replying STOP. Message and data rates may apply.
+              {" "}{BUSINESS_NAME} as described in our{" "}
+              <a href="/privacy" className="text-[var(--color-accent)] hover:underline">Privacy Policy</a>.
+              You may opt out at any time by replying STOP. Message and data rates may apply.
+            </p>
+            <p>
+              <strong>Your opt-in consent and phone number are never sold, shared, or distributed to any third party.</strong> SMS
+              communications are sent exclusively by {BUSINESS_NAME}. We do not share your opt-in information with
+              outside parties for any reason.
             </p>
           </div>
 
@@ -121,6 +129,8 @@ export default function Terms() {
             <p>For questions about these Terms, contact us at:</p>
             <div className="mt-3 space-y-1">
               <p><strong>{BUSINESS_NAME}</strong></p>
+              <p>{BUSINESS_ADDRESS}</p>
+              <p>Website: <a href="https://www.your-amazon-sister.com" className="text-[var(--color-accent)] hover:underline">www.your-amazon-sister.com</a></p>
               <p>Email: <a href={`mailto:${BUSINESS_EMAIL}`} className="text-[var(--color-accent)] hover:underline">{BUSINESS_EMAIL}</a></p>
               <p>Phone: <a href="tel:17022503325" className="text-[var(--color-accent)] hover:underline">{BUSINESS_PHONE}</a></p>
             </div>

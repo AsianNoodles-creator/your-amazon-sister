@@ -472,7 +472,7 @@ export default function Home() {
               <span className="text-[var(--color-accent)]">Amazon business?</span>
             </h2>
             <p className="text-[var(--color-muted-text)] text-lg leading-relaxed mb-10 max-w-xl mx-auto">
-              Join thousands of women who are doing it — with Wensey&apos;s guidance, real strategy, and the support to see it through.
+              Join the women who are already doing it — with Wensey&apos;s guidance, real strategy, and the support to see it through.
             </p>
             <Link
               href="/contact"

@@ -18,6 +18,7 @@ export default function Footer() {
               community, and live coaching.
             </p>
             <p className="text-xs text-[var(--color-muted-text)]">Your Amazon Sister LLC</p>
+            <p className="text-xs text-[var(--color-muted-text)] mt-1">3157 N. Rainbow Blvd #161, Las Vegas, NV 89108</p>
           </div>
 
           {/* Links */}

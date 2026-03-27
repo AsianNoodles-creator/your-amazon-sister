@@ -95,14 +95,20 @@ export default function FreeTraining() {
 
             {/* Trust line */}
             <p
-              className="mt-5 flex items-center justify-center gap-2"
+              className="mt-5 text-center leading-relaxed"
               style={{ fontSize: "0.74rem", color: "var(--color-muted-text)" }}
             >
-              <svg className="w-3.5 h-3.5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} style={{ color: "var(--color-accent)" }}>
-                <rect x="3" y="11" width="18" height="11" rx="2" />
-                <path d="M7 11V7a5 5 0 0110 0v4" />
-              </svg>
-              Your information is private and will never be shared.
+              <span className="flex items-center justify-center gap-2 mb-1">
+                <svg className="w-3.5 h-3.5 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} style={{ color: "var(--color-accent)" }}>
+                  <rect x="3" y="11" width="18" height="11" rx="2" />
+                  <path d="M7 11V7a5 5 0 0110 0v4" />
+                </svg>
+                Your information is never sold, shared, or distributed to third parties.
+              </span>
+              By submitting, you agree to our{" "}
+              <a href="/privacy" className="underline">Privacy Policy</a>
+              {" "}and{" "}
+              <a href="/terms" className="underline">Terms of Service</a>.
             </p>
           </div>
 
@@ -120,6 +126,16 @@ export default function FreeTraining() {
         >
           &copy; {new Date().getFullYear()} Your Amazon Sister LLC. All rights reserved.
         </p>
+        <p
+          className="mx-auto mt-1"
+          style={{ fontSize: "0.67rem", color: "var(--color-muted-text)" }}
+        >
+          3157 N. Rainbow Blvd #161, Las Vegas, NV 89108
+        </p>
+        <div className="flex items-center justify-center gap-4 mt-2">
+          <a href="/privacy" className="hover:underline" style={{ fontSize: "0.67rem", color: "var(--color-muted-text)" }}>Privacy Policy</a>
+          <a href="/terms" className="hover:underline" style={{ fontSize: "0.67rem", color: "var(--color-muted-text)" }}>Terms of Service</a>
+        </div>
       </footer>
     </>
   );
