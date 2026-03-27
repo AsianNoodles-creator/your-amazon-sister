@@ -106,25 +106,32 @@ export default function About() {
       <section className="py-20 bg-[var(--color-surface)] border-y border-[var(--color-border-light)]">
         <div className="max-w-3xl mx-auto px-4 sm:px-6">
           <AnimateOnScroll>
-            <h2 className="text-3xl font-bold text-[var(--color-primary-text)] mb-8">
-              The Story
+            <h2 className="text-2xl font-bold text-[var(--color-primary-text)] mb-8">
+              Meet Your Mentor
             </h2>
-            <div className="space-y-5 text-[var(--color-muted-text)] leading-relaxed">
+            <div className="space-y-5 text-[var(--color-muted-text)] leading-relaxed text-sm">
               <p>
-                The first year was rough — like, really rough. I picked the wrong products, wrote listings that got zero clicks, and kept getting hit with Amazon fees I didn&apos;t even know were a thing. I lost money I couldn&apos;t afford to lose. I almost walked away from it twice.
+                I&apos;m a single mom who was willing to go all in — again and again — until I finally found something that worked. I&apos;m not technical. I didn&apos;t have a business degree. But I am super smart, resourceful, and determined — and I knew I couldn&apos;t afford to stay stuck.
               </p>
               <p>
-                But something in me wouldn&apos;t let it go. I stopped winging it and started actually learning — digging into the numbers, testing different suppliers, rewriting listings, figuring out what works and what&apos;s just noise. It took time, but I built a process that started making real money. Not overnight. Not by luck. Just by showing up and figuring it out.
+                When I started, I didn&apos;t have a perfect plan. I was figuring things out in real time — making moves, learning quickly, and doing everything I could to create something that actually worked.
               </p>
               <p>
-                When I hit six figures in year two, the first thing I thought was — why did I have to learn all of this the hard way? Why isn&apos;t anyone just being straight up about how this works?
+                The hardest part wasn&apos;t the business itself — it was doing it alone. That&apos;s what almost made me quit in my first year. Not because of wrong products or hidden fees — but because I was doing everything the hard way, without help. No one to talk to, no one to share a win with, no one who understood what I was building or why.
               </p>
               <p>
-                That&apos;s why I started Your Amazon Sister. I wanted to be the person I needed when I was starting out — someone who actually tells you what&apos;s working right now, not someone selling you a dream from a course they recorded three years ago.
+                I hit a month where I brought in over $200K across my businesses — and I had nobody to celebrate with. What I thought would be the proudest moment of my life felt exhausting and lonely. So I withdrew. I got small. I stayed small until I could find people like me.
               </p>
               <p>
-                Now I work with over 20 people through group coaching, 1-on-1 mentorship, and done-for-you services. Everything I teach is stuff I&apos;m still doing in my own business today. I&apos;m not here to impress you with screenshots — I&apos;m here to help you build something that actually pays you.
+                But I didn&apos;t quit. I kept going, figured out what actually works, and built a business that went on to generate millions on Amazon. And more importantly — I created a safe space where I finally had a community, a place where even I had a friend. That&apos;s when everything changed.
               </p>
+              <p>
+                I did it alone, and I refuse to let anyone else have to do it that way. Helping people is why I believe I was put on this planet. That&apos;s why I created Your Amazon Sister LLC — to be the person I wish I had when I was starting out.
+              </p>
+              <ul className="list-disc pl-5 space-y-2 mt-4">
+                <li>Live weekly training, not pre-recorded fluff</li>
+                <li>Mentorship &amp; done-for-you options available</li>
+              </ul>
             </div>
           </AnimateOnScroll>
         </div>
