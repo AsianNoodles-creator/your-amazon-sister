@@ -27,6 +27,9 @@ export default function Terms() {
         <div className="prose prose-sm max-w-none space-y-8 text-[var(--color-muted-text)] leading-relaxed">
 
           <div>
+            <p className="mb-3">
+              {BUSINESS_NAME} is owned and operated by Wensey McComb.
+            </p>
             <p>
               These Terms of Service ("Terms") govern your access to and use of the website and services
               operated by {BUSINESS_NAME} ("Your Amazon Sister," "we," "us," or "our"). By using this website or
@@ -60,17 +63,18 @@ export default function Terms() {
               By opting in to SMS communications, you agree to receive automated text messages from
               {" "}{BUSINESS_NAME} as described in our{" "}
               <a href="/privacy" className="text-[var(--color-accent)] hover:underline">Privacy Policy</a>.
-              You may opt out at any time by replying STOP. Message and data rates may apply.
             </p>
             <p className="mb-3">
-              You may receive SMS messages including alerts, notifications, appointment reminders, onboarding updates,
-              training guide delivery, webinar reminders, coaching updates, service notifications, and promotional
-              messages such as special offers, discounts, and product updates.
+              These messages may include responses to inquiries, appointment reminders, onboarding updates,
+              and service-related notifications. Message frequency may vary. Message and data rates may apply.
+            </p>
+            <p className="mb-3">
+              You may opt out at any time by replying <strong>STOP</strong> or request assistance by
+              replying <strong>HELP</strong>.
             </p>
             <p>
-              <strong>Your opt-in consent and phone number are never sold, shared, or distributed to any third party.</strong> SMS
-              communications are sent exclusively by {BUSINESS_NAME}. We do not share your opt-in information with
-              outside parties for any reason.
+              SMS consent is not a condition of purchase. Your opt-in consent and phone number are not sold,
+              shared, or disclosed to third parties or affiliates for marketing purposes.
             </p>
           </div>
 

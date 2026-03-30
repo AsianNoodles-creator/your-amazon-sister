@@ -17,7 +17,8 @@ export default function Footer() {
               Helping women build profitable Amazon businesses through education,
               community, and live coaching.
             </p>
-            <p className="text-xs text-[var(--color-muted-text)]">Your Amazon Sister LLC</p>
+            <p className="text-xs text-[var(--color-muted-text)]">Your Amazon Sister is operated by Wensey McComb</p>
+            <p className="text-xs text-[var(--color-muted-text)] mt-1">Your Amazon Sister LLC</p>
             <p className="text-xs text-[var(--color-muted-text)] mt-1">3157 N. Rainbow Blvd #161, Las Vegas, NV 89108</p>
           </div>
 

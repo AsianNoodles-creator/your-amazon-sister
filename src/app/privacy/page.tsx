@@ -27,6 +27,9 @@ export default function PrivacyPolicy() {
         <div className="prose prose-sm max-w-none space-y-8 text-[var(--color-muted-text)] leading-relaxed">
 
           <div>
+            <p className="mb-3">
+              {BUSINESS_NAME} is owned and operated by Wensey McComb.
+            </p>
             <p>
               This Privacy Policy describes how {BUSINESS_NAME} ("Your Amazon Sister," "we," "us," or "our")
               collects, uses, and shares information when you visit our website or join our membership community.
@@ -58,14 +61,20 @@ export default function PrivacyPolicy() {
           <div>
             <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">3. SMS Communications</h2>
             <p className="mb-3">
-              By providing your phone number, you consent to receive SMS messages from {BUSINESS_NAME} related
-              to your inquiry, appointments, onboarding, and service updates. Message frequency may vary.
-              Message and data rates may apply. You can opt out at any time by replying <strong>STOP</strong> or
-              request assistance by replying <strong>HELP</strong>.
+              By providing your phone number and explicitly consenting, you agree to receive SMS messages
+              from {BUSINESS_NAME} related to your inquiry, appointments, onboarding, and service updates.
             </p>
-            <p className="mb-3">
-              Your phone number and SMS consent will not be shared with third parties for marketing purposes.
-            </p>
+            <ul className="list-disc pl-5 space-y-2 mb-3">
+              <li>Message frequency may vary depending on your interaction with our services</li>
+              <li>Message and data rates may apply</li>
+              <li>You may opt out at any time by replying <strong>STOP</strong></li>
+              <li>You may request assistance by replying <strong>HELP</strong></li>
+            </ul>
+            <p className="mb-2"><strong>Important:</strong></p>
+            <ul className="list-disc pl-5 space-y-2 mb-3">
+              <li>SMS consent is not a condition of purchase</li>
+              <li>SMS opt-in data and consent are not shared, sold, or disclosed to third parties or affiliates for marketing purposes</li>
+            </ul>
             <p>
               Carriers are not liable for delayed or undelivered messages.
             </p>
@@ -81,6 +90,9 @@ export default function PrivacyPolicy() {
               <li><strong>Service providers</strong> — specifically GoHighLevel (CRM and marketing automation) and Twilio (SMS delivery), who process data on our behalf under strict confidentiality agreements. These providers do not have permission to use your data for any purpose other than delivering our services to you.</li>
               <li><strong>Legal authorities</strong> — only if required by law or to protect our legal rights.</li>
             </ul>
+            <p className="mt-3">
+              SMS opt-in data and consent are not shared, sold, or disclosed to third parties or affiliates for marketing purposes.
+            </p>
             <p className="mt-3">
               No other third party has access to your personal information, phone number, email address, or opt-in consent. We do not participate in data sharing, data brokering, or any form of third-party data distribution.
             </p>
@@ -129,6 +141,9 @@ export default function PrivacyPolicy() {
               <li>Opt out of marketing communications at any time</li>
             </ul>
             <p className="mt-3">To exercise any of these rights, contact us at {BUSINESS_EMAIL}.</p>
+            <p className="mt-3">
+              You may opt out of SMS communications at any time by replying STOP to any message or by contacting us directly.
+            </p>
           </div>
 
           <div>

@@ -124,6 +124,12 @@ export default function FreeTraining() {
           className="mx-auto leading-relaxed"
           style={{ fontSize: "0.67rem", color: "var(--color-muted-text)", maxWidth: "560px" }}
         >
+          Your Amazon Sister is operated by Wensey McComb
+        </p>
+        <p
+          className="mx-auto mt-1"
+          style={{ fontSize: "0.67rem", color: "var(--color-muted-text)", maxWidth: "560px" }}
+        >
           &copy; {new Date().getFullYear()} Your Amazon Sister LLC. All rights reserved.
         </p>
         <p
