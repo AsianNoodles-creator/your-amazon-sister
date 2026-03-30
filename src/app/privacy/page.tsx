@@ -129,10 +129,12 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">9. Children&apos;s Privacy</h2>
+            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">9. Age Requirement</h2>
+            <p className="mb-3">
+              You must be 18 years of age or older to use this SMS service.
+            </p>
             <p>
-              Our website and services are not directed to individuals under the age of 18.
-              We do not knowingly collect personal information from children.
+              Carriers are not liable for delayed or undelivered messages.
             </p>
           </div>
 

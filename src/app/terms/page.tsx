@@ -62,6 +62,11 @@ export default function Terms() {
               <a href="/privacy" className="text-[var(--color-accent)] hover:underline">Privacy Policy</a>.
               You may opt out at any time by replying STOP. Message and data rates may apply.
             </p>
+            <p className="mb-3">
+              You may receive SMS messages including alerts, notifications, appointment reminders, onboarding updates,
+              training guide delivery, webinar reminders, coaching updates, service notifications, and promotional
+              messages such as special offers, discounts, and product updates.
+            </p>
             <p>
               <strong>Your opt-in consent and phone number are never sold, shared, or distributed to any third party.</strong> SMS
               communications are sent exclusively by {BUSINESS_NAME}. We do not share your opt-in information with
