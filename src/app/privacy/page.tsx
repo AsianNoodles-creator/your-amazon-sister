@@ -92,7 +92,25 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">6. Data Retention</h2>
+            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">6. Data Security</h2>
+            <p className="mb-3">
+              We take the protection of your personal information seriously and implement appropriate technical
+              and organizational measures to safeguard it. These measures include:
+            </p>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>SSL/TLS encryption on all pages of our website to protect data in transit</li>
+              <li>Secure, access-controlled storage of personal data within our CRM and communications platforms</li>
+              <li>Restricted access to personal information — only authorized personnel who need it to perform their duties may access your data</li>
+              <li>Regular review of our data collection, storage, and processing practices</li>
+            </ul>
+            <p className="mt-3">
+              While no method of transmission or storage is 100% secure, we are committed to protecting your
+              information and will notify you promptly in the unlikely event of a data breach that affects your personal data.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">7. Data Retention</h2>
             <p>
               We retain your personal information for as long as necessary to provide our services and comply
               with legal obligations. You may request deletion of your data at any time by contacting us.
@@ -100,7 +118,7 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">7. Your Rights</h2>
+            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">8. Your Rights</h2>
             <p className="mb-3">Depending on your location, you may have the right to:</p>
             <ul className="list-disc pl-5 space-y-2">
               <li>Access the personal information we hold about you</li>
@@ -111,7 +129,7 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">8. Children&apos;s Privacy</h2>
+            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">9. Children&apos;s Privacy</h2>
             <p>
               Our website and services are not directed to individuals under the age of 18.
               We do not knowingly collect personal information from children.
@@ -119,7 +137,7 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">9. Changes to This Policy</h2>
+            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">10. Changes to This Policy</h2>
             <p>
               We may update this Privacy Policy from time to time. Changes will be posted on this page
               with an updated effective date. Continued use of our services after changes constitutes
@@ -128,7 +146,7 @@ export default function PrivacyPolicy() {
           </div>
 
           <div>
-            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">10. Contact Us</h2>
+            <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">11. Contact Us</h2>
             <p>If you have questions about this Privacy Policy, contact us at:</p>
             <div className="mt-3 space-y-1">
               <p><strong>{BUSINESS_NAME}</strong></p>
