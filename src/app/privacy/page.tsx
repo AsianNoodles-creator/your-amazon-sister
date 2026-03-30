@@ -63,8 +63,11 @@ export default function PrivacyPolicy() {
               Message and data rates may apply. You can opt out at any time by replying <strong>STOP</strong> or
               request assistance by replying <strong>HELP</strong>.
             </p>
-            <p>
+            <p className="mb-3">
               Your phone number and SMS consent will not be shared with third parties for marketing purposes.
+            </p>
+            <p>
+              Carriers are not liable for delayed or undelivered messages.
             </p>
           </div>
 
@@ -130,11 +133,8 @@ export default function PrivacyPolicy() {
 
           <div>
             <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">9. Age Requirement</h2>
-            <p className="mb-3">
-              You must be 18 years of age or older to use this SMS service.
-            </p>
             <p>
-              Carriers are not liable for delayed or undelivered messages.
+              You must be 18 years of age or older to use this SMS service.
             </p>
           </div>
 
