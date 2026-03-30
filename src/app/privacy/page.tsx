@@ -58,36 +58,13 @@ export default function PrivacyPolicy() {
           <div>
             <h2 className="text-xl font-bold text-[var(--color-primary-text)] mb-3">3. SMS Communications</h2>
             <p className="mb-3">
-              By providing your phone number and checking the SMS consent checkbox on our forms,
-              you consent to receive recurring automated text messages from {BUSINESS_NAME} at the phone number provided.
+              By providing your phone number, you consent to receive SMS messages from {BUSINESS_NAME} related
+              to your inquiry, appointments, onboarding, and service updates. Message frequency may vary.
+              Message and data rates may apply. You can opt out at any time by replying <strong>STOP</strong> or
+              request assistance by replying <strong>HELP</strong>.
             </p>
-
-            <h3 className="text-base font-semibold text-[var(--color-primary-text)] mb-2 mt-4">Opt-In Methods</h3>
-            <p className="mb-3">We collect SMS opt-in consent exclusively through our website at <strong>www.your-amazon-sister.com</strong>. The following forms contain SMS consent checkboxes:</p>
-            <ul className="list-disc pl-5 space-y-2 mb-4">
-              <li><strong>Contact page form</strong> — located at www.your-amazon-sister.com/contact</li>
-              <li><strong>Free training opt-in form</strong> — located at www.your-amazon-sister.com/free-training</li>
-            </ul>
-            <p className="mb-3">
-              Each form requires the user to manually check a consent checkbox before submitting. No pre-checked boxes are used.
-              Consent is not collected through any other method — no paper forms, no phone calls, no in-person collection, and no third-party sources.
-            </p>
-
-            <h3 className="text-base font-semibold text-[var(--color-primary-text)] mb-2 mt-4">Message Details</h3>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Message frequency varies based on community announcements, coaching updates, and business communications.</li>
-              <li>Message and data rates may apply.</li>
-              <li>To opt out at any time, reply <strong>STOP</strong> to any message. You will receive a confirmation and no further messages will be sent.</li>
-              <li>To request help, reply <strong>HELP</strong> or contact us at {BUSINESS_EMAIL} or {BUSINESS_PHONE}.</li>
-              <li>Carriers are not liable for delayed or undelivered messages.</li>
-              <li>Consent to receive SMS messages is not a condition of purchase.</li>
-            </ul>
-
-            <h3 className="text-base font-semibold text-[var(--color-primary-text)] mb-2 mt-4">No Third-Party Sharing</h3>
             <p>
-              <strong>We do not sell, share, rent, or distribute your phone number, opt-in consent, or any personal data to any third parties under any circumstances.</strong> Your
-              information is used solely by {BUSINESS_NAME} to communicate directly with you. Opt-in data is never transferred, sold, or made available to outside parties.
-              No third party receives your consent or contact information for their own use.
+              Your phone number and SMS consent will not be shared with third parties for marketing purposes.
             </p>
           </div>
 
