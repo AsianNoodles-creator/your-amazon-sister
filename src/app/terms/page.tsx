@@ -135,7 +135,7 @@ export default function Terms() {
             <div className="mt-3 space-y-1">
               <p><strong>{BUSINESS_NAME}</strong></p>
               <p>{BUSINESS_ADDRESS}</p>
-              <p>Website: <a href="https://www.your-amazon-sister.com" className="text-[var(--color-accent)] hover:underline">www.your-amazon-sister.com</a></p>
+              <p>Website: <a href="https://www.wenseymccomb.com" className="text-[var(--color-accent)] hover:underline">www.wenseymccomb.com</a></p>
               <p>Email: <a href={`mailto:${BUSINESS_EMAIL}`} className="text-[var(--color-accent)] hover:underline">{BUSINESS_EMAIL}</a></p>
               <p>Phone: <a href="tel:17022503325" className="text-[var(--color-accent)] hover:underline">{BUSINESS_PHONE}</a></p>
             </div>
