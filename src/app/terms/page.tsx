@@ -72,9 +72,15 @@ export default function Terms() {
               You may opt out at any time by replying <strong>STOP</strong> or request assistance by
               replying <strong>HELP</strong>.
             </p>
-            <p>
+            <p className="mb-3">
               SMS consent is not a condition of purchase. Your opt-in consent and phone number are not sold,
               shared, or disclosed to third parties or affiliates for marketing purposes.
+            </p>
+            <p className="mb-3">
+              Carriers are not liable for delayed or undelivered messages.
+            </p>
+            <p>
+              You must be 18 years of age or older to use this SMS service.
             </p>
           </div>
 
